@@ -15,5 +15,9 @@ public class DateDemo {
         Date d3 = new Date();
         System.out.println(d3.getTime()/1.0/1000/60/60/24/365);
 
+        //set time
+        long time = 1000*60*60;
+        d1.setTime(time);
+        System.out.println(d1);
     }
 }
