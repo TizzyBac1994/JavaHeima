@@ -19,5 +19,12 @@ public class DateDemo {
         long time = 1000*60*60;
         d1.setTime(time);
         System.out.println(d1);
+
+
+        Date d4 = new Date();
+        long time2 = System.currentTimeMillis();
+        d4.setTime(time2);
+        System.out.println(d4);
+
     }
 }
